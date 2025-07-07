@@ -56,7 +56,7 @@ export default function ExcelToZipDownloader() {
   return (
     <Box sx={{ maxWidth: 800, margin: "auto", p: 3 }}>
       <Typography variant="h6" gutterBottom>
-        Convert Excel Files to JSON and Download as ZIP
+        Convert Excel Files to JSON
       </Typography>
 
       <Button variant="contained" component="label" disabled={isProcessing}>
